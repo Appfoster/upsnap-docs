@@ -4,6 +4,28 @@ All notable changes to the **UpSnap Website Monitoring & Uptime Dashboard** plug
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.4] - 2026-05-26
+
+- **Installation Tracking** Implements critical security, reliability, and robustness improvements for installation telemetry and tracking endpoints.
+
+## [1.0.3] - 2026-05-06
+
+### Added
+- **Unique Installation Tracking**: Implemented a telemetry system to record new plugin installations. This helps the UpSnap team understand the distribution of the plugin across different environments.
+- **Dynamic Site Telemetry**: The plugin now automatically collects and sends the following metadata during the first activation:
+    - WordPress version
+    - PHP version
+    - Site URL
+    - Plugin version
+
+### Changed
+- **Activation Flow Dependencies**: Improved the plugin activation hook to ensure all necessary API and storage dependencies are loaded before performing the initial tracking call.
+
+
+## [1.0.2] - 2026-05-06
+
+- Updated documentation links and readme formatting.
+
 ## [1.0.1] - 2026-05-04
 
 - Updated documentation links and readme formatting.
