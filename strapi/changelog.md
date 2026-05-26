@@ -2,6 +2,13 @@
 
 All notable changes to the UpSnap Strapi plugin will be documented in this file.
 
+## [1.0.14] - 2026-05-26
+- **Installation Tracking** Implements critical security, reliability, and robustness improvements for installation telemetry and tracking endpoints.
+
+## [1.0.11] - 2026-05-06
+### Added
+- **Telemetry Installation Tracking**: Implemented a one-time telemetry API call to record plugin installation data (Platform, Plugin Version, Site URL, and Strapi Version) to help gather telemetry.
+
 ## [1.0.10] - 2026-04-01
 ### Added
 - Implemented **Port Monitoring** to track specific service availability.
